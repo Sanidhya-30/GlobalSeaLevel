@@ -11,7 +11,7 @@
 #Yt = 0.1X(t-1) + 0.3Y(t-1) + e_t^Y
 
 
-A <- matrix(c(0.2,0.4,0.1,0.3), 2, 2, byrow=T)
+A <- matrix(c(0.2,0.5,0.1,0.3), 2, 2, byrow=T)
 A
 
 eigen(A)
